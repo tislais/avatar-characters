@@ -15,7 +15,7 @@ const CharacterList = ({ characters }) => {
         name={character.name}
         allies={character.allies}
         enemies={character.enemies}
-        photoUrl={character.photoUrl}
+        photo={character.photo}
         id={character._id}
       />
 
@@ -35,7 +35,7 @@ CharacterList.propTypes = {
     affiliation: PropTypes.string.isRequired,
     allies: PropTypes.array,
     enemies: PropTypes.array,
-    photoUrl: PropTypes.string
+    photo: PropTypes.string
   })).isRequired
 };
 

@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Character = ({ name, allies, enemies, photoUrl, id }) => (
+const Character = ({ name, allies, enemies, photo, id }) => (
 
   <figure className="">
-      <img src={photoUrl} alt={name}
+      <img src={photo} alt={name}
         className="
           h-[300px] sm:h-[200px] 
           w-full 
@@ -33,7 +33,7 @@ Character.propTypes = {
   name: PropTypes.string.isRequired,
   allies: PropTypes.array,
   enemies: PropTypes.array,
-  photoUrl: PropTypes.string.isRequired
+  photo: PropTypes.string.isRequired
 };
 
 export default Character;
