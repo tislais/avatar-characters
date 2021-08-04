@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character component renders Character 1`] = `
+<DocumentFragment>
+  <ul
+    class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6 p-4 gap-4"
+  >
+    <li
+      class="p-5 bg-white rounded shadow-md 
+ hover:scale-105 transition duration-300 ease-in-out
+ cursor-pointer"
+    >
+      <figure
+        class=""
+      >
+        <img
+          alt="46th Earth King"
+          class="
+ h-[300px] sm:h-[200px] 
+ w-full 
+ object-cover
+ "
+          src="url"
+        />
+        <figcaption>
+          <p
+            class="uppercase text-lg font-bold tracking-wider"
+          >
+            46th Earth King
+          </p>
+          <p>
+            Allies: 
+            <span>
+              Royal Earthbender Guards
+            </span>
+          </p>
+          <p>
+            Enemies: 
+            <span>
+              Chin
+            </span>
+          </p>
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      class="p-5 bg-white rounded shadow-md 
+ hover:scale-105 transition duration-300 ease-in-out
+ cursor-pointer"
+    >
+      <figure
+        class=""
+      >
+        <img
+          alt="46th Earth King"
+          class="
+ h-[300px] sm:h-[200px] 
+ w-full 
+ object-cover
+ "
+          src="url"
+        />
+        <figcaption>
+          <p
+            class="uppercase text-lg font-bold tracking-wider"
+          >
+            46th Earth King
+          </p>
+          <p>
+            Allies: 
+            <span>
+              Royal Earthbender Guards
+            </span>
+          </p>
+          <p>
+            Enemies: 
+            <span>
+              Chin
+            </span>
+          </p>
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      class="p-5 bg-white rounded shadow-md 
+ hover:scale-105 transition duration-300 ease-in-out
+ cursor-pointer"
+    >
+      <figure
+        class=""
+      >
+        <img
+          alt="46th Earth King"
+          class="
+ h-[300px] sm:h-[200px] 
+ w-full 
+ object-cover
+ "
+          src="url"
+        />
+        <figcaption>
+          <p
+            class="uppercase text-lg font-bold tracking-wider"
+          >
+            46th Earth King
+          </p>
+          <p>
+            Allies: 
+            <span>
+              Royal Earthbender Guards
+            </span>
+          </p>
+          <p>
+            Enemies: 
+            <span>
+              Chin
+            </span>
+          </p>
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      class="p-5 bg-white rounded shadow-md 
+ hover:scale-105 transition duration-300 ease-in-out
+ cursor-pointer"
+    >
+      <figure
+        class=""
+      >
+        <img
+          alt="46th Earth King"
+          class="
+ h-[300px] sm:h-[200px] 
+ w-full 
+ object-cover
+ "
+          src="url"
+        />
+        <figcaption>
+          <p
+            class="uppercase text-lg font-bold tracking-wider"
+          >
+            46th Earth King
+          </p>
+          <p>
+            Allies: 
+            <span>
+              Royal Earthbender Guards
+            </span>
+          </p>
+          <p>
+            Enemies: 
+            <span>
+              Chin
+            </span>
+          </p>
+        </figcaption>
+      </figure>
+    </li>
+    <li
+      class="p-5 bg-white rounded shadow-md 
+ hover:scale-105 transition duration-300 ease-in-out
+ cursor-pointer"
+    >
+      <figure
+        class=""
+      >
+        <img
+          alt="46th Earth King"
+          class="
+ h-[300px] sm:h-[200px] 
+ w-full 
+ object-cover
+ "
+          src="url"
+        />
+        <figcaption>
+          <p
+            class="uppercase text-lg font-bold tracking-wider"
+          >
+            46th Earth King
+          </p>
+          <p>
+            Allies: 
+            <span>
+              Royal Earthbender Guards
+            </span>
+          </p>
+          <p>
+            Enemies: 
+            <span>
+              Chin
+            </span>
+          </p>
+        </figcaption>
+      </figure>
+    </li>
+  </ul>
+</DocumentFragment>
+`;

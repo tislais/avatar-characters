@@ -16,7 +16,6 @@ const CharacterList = ({ characters }) => {
         allies={character.allies}
         enemies={character.enemies}
         photo={character.photo}
-        id={character._id}
       />
 
     </li>
