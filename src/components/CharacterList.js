@@ -6,7 +6,7 @@ const CharacterList = ({ characters }) => {
   
   const characterElements = characters.map((character, i) => (
 
-    <li key={(character.name + i)} 
+    <li key={i} 
       className="p-5 bg-white rounded shadow-md 
       hover:scale-105 transition duration-300 ease-in-out
       cursor-pointer">
@@ -31,7 +31,7 @@ const CharacterList = ({ characters }) => {
 CharacterList.propTypes = {
   characters: PropTypes.arrayOf(PropTypes.shape({
     name: PropTypes.string.isRequired,
-    affiliation: PropTypes.string.isRequired,
+    affiliation: PropTypes.string,
     allies: PropTypes.array,
     enemies: PropTypes.array,
     photo: PropTypes.string

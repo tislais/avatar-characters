@@ -1,13 +1,28 @@
-import './App.css';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/Header';
 import Characters from './containers/Characters';
+import CharacterDetail from './components/CharacterDetail';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header />
-      <Characters />
-    </div>
+      <Router>
+        <Switch>
+
+          <Route path="/" exact={true} 
+            render={routerProps => (
+              <Characters />
+            )} />
+
+          <Route path="/character/:id"
+            render={routerProps => (
+              <CharacterDetail {...routerProps} />
+            )} />
+
+        </Switch>
+      </Router>
+    </>
   );
 }
 
