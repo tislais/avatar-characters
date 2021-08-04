@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character component renders Character 1`] = `
+<DocumentFragment>
+  <figure
+    class=""
+  >
+    <img
+      alt="46th Earth King"
+      class="
+ h-[300px] sm:h-[200px] 
+ w-full 
+ object-cover
+ "
+      src="https://vignette.wikia.nocookie.net/avatar/images/5/51/46th_Earth_King.png/revision/latest?cb=20130627160441"
+    />
+    <figcaption>
+      <p
+        class="uppercase text-lg font-bold tracking-wider"
+      >
+        46th Earth King
+      </p>
+      <p>
+        Allies: 
+        <span>
+          Royal Earthbender Guards
+        </span>
+      </p>
+      <p>
+        Enemies: 
+        <span>
+          Chin
+        </span>
+      </p>
+    </figcaption>
+  </figure>
+</DocumentFragment>
+`;
