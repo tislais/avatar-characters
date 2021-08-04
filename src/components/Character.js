@@ -33,7 +33,7 @@ Character.propTypes = {
   name: PropTypes.string.isRequired,
   allies: PropTypes.array,
   enemies: PropTypes.array,
-  photo: PropTypes.string.isRequired
+  photo: PropTypes.string
 };
 
 export default Character;
