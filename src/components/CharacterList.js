@@ -3,15 +3,13 @@ import PropTypes from 'prop-types';
 import Character from './Character';
 
 const CharacterList = ({ characters }) => {
-  
   const characterElements = characters.map((character, i) => (
 
-    <li key={i} 
-      className="p-5 bg-white rounded shadow-md 
-      hover:scale-105 transition duration-300 ease-in-out
-      cursor-pointer">
+    <li key={character + i} 
+      className="p-5 bg-white rounded shadow-md scale-110 transition duration-300 ease-in-out cursor-pointer">
 
       <Character
+        id={character.id}
         name={character.name}
         allies={character.allies}
         enemies={character.enemies}

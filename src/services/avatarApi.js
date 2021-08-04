@@ -1,8 +1,8 @@
 export const fetchCharacters = async () => {
   const res = await fetch('https://last-airbender-api.herokuapp.com/api/v1/characters');
   const json = await res.json();
-  return json.map(({ id, allies, enemies, photoUrl, name, affiliation }) => ({
-    id,
+  return json.map(({ _id, allies, enemies, photoUrl, name, affiliation }) => ({
+    id: _id,
     allies,
     enemies, 
     photo: photoUrl, 

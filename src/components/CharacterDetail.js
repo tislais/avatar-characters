@@ -10,7 +10,6 @@ const CharacterDetail = () => {
   useEffect(() => {
     fetchCharacterById(id)
       .then(res => setCharacter(res));
-    console.log(character);
   }, []);
 
   return (

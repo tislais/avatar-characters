@@ -12,7 +12,7 @@ function App() {
 
           <Route path="/" exact={true} 
             render={routerProps => (
-              <Characters />
+              <Characters {...routerProps} />
             )} />
 
           <Route path="/character/:id"

@@ -2,37 +2,45 @@
 
 exports[`Character component renders Character 1`] = `
 <DocumentFragment>
-  <figure
-    class=""
+  <a
+    href="/character/undefined"
   >
-    <img
-      alt="46th Earth King"
-      class="
- h-[300px] sm:h-[200px] 
+    <figure
+      class="h-full"
+    >
+      <img
+        alt="46th Earth King"
+        class="
+ h-2/3 sm:h-[200px] 
  w-full 
  object-cover
  "
-      src="https://vignette.wikia.nocookie.net/avatar/images/5/51/46th_Earth_King.png/revision/latest?cb=20130627160441"
-    />
-    <figcaption>
-      <p
-        class="uppercase text-lg font-bold tracking-wider"
-      >
-        46th Earth King
-      </p>
-      <p>
-        Allies: 
-        <span>
-          Royal Earthbender Guards
-        </span>
-      </p>
-      <p>
-        Enemies: 
-        <span>
-          Chin
-        </span>
-      </p>
-    </figcaption>
-  </figure>
+        src="https://vignette.wikia.nocookie.net/avatar/images/5/51/46th_Earth_King.png/revision/latest?cb=20130627160441"
+      />
+      <figcaption>
+        <p
+          class="uppercase text-lg font-bold tracking-wider mt-4 truncate"
+        >
+          46th Earth King
+        </p>
+        <p
+          class="text-xs"
+        >
+          Allies: 
+          <span>
+            Royal Earthbender Guards
+          </span>
+        </p>
+        <p
+          class="text-xs"
+        >
+          Enemies: 
+          <span>
+            Chin
+          </span>
+        </p>
+      </figcaption>
+    </figure>
+  </a>
 </DocumentFragment>
 `;
