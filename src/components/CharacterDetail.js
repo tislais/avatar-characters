@@ -3,14 +3,15 @@ import { fetchCharacterById } from '../services/avatarApi';
 import { useParams } from 'react-router-dom';
 
 
-const CharacterDetail = () => {
+const CharacterDetail = ({ props }) => {
   const [character, setCharacter] = useState([]);
   const { id } = useParams();
+  console.log(props);
 
   useEffect(() => {
     fetchCharacterById(id)
       .then(res => setCharacter(res));
-  }, []);
+  }, [id]);
 
   return (
     <>

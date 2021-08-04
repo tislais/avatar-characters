@@ -16,9 +16,11 @@ function App() {
             )} />
 
           <Route path="/character/:id"
-            render={routerProps => (
-              <CharacterDetail {...routerProps} />
-            )} />
+            // render={routerProps => (
+            //   <CharacterDetail {...routerProps} />
+            component={CharacterDetail}
+            // )} 
+            />
 
         </Switch>
       </Router>

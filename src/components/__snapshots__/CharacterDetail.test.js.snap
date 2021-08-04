@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character detail component renders Character 1`] = `
+<DocumentFragment>
+  <h1
+    class="text-4xl"
+  />
+  <img />
+  <p>
+    Gender: 
+  </p>
+  <p>
+    Hair Color: 
+  </p>
+  <p>
+    Position: 
+  </p>
+  <p>
+    Affiliation: 
+  </p>
+  <p>
+    Allies: 
+  </p>
+  <p>
+    Enemies: 
+  </p>
+</DocumentFragment>
+`;
