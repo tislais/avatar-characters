@@ -4,9 +4,9 @@ import Character from './Character';
 
 const CharacterList = ({ characters }) => {
   
-  const characterElements = characters.map((character) => (
+  const characterElements = characters.map((character, i) => (
 
-    <li key={character._id} 
+    <li key={(character.name + i)} 
       className="p-5 bg-white rounded shadow-md 
       hover:scale-105 transition duration-300 ease-in-out
       cursor-pointer">
@@ -35,8 +35,7 @@ CharacterList.propTypes = {
     affiliation: PropTypes.string.isRequired,
     allies: PropTypes.array,
     enemies: PropTypes.array,
-    photoUrl: PropTypes.string.isRequired,
-    id: PropTypes.string.isRequired
+    photoUrl: PropTypes.string
   })).isRequired
 };
 

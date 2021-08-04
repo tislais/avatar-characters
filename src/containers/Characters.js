@@ -12,10 +12,8 @@ const Characters = () => {
       .then(() => setLoading(false));
   }, []);
 
-  console.log(characters);
   if (loading) return <h1>Loading...</h1>;
-  // return <CharacterList characters={characters} />;
-  return <h1>Loaded.</h1>;
+  return <CharacterList characters={characters} />;
 };
 
 export default Characters;
